@@ -21,7 +21,7 @@ print("Reversed list:", reversed_list)
 
 # 3. Write a Python program to check if a string is a palindrome using a function.
 def is_palindrome(input_str):
-    input_str = input_str.lower().replace(" ", "")  # Convert to lowercase and remove spaces
+    input_str = input_str.lower().replace(" ", "")  
     return input_str == input_str[::-1]
 
 test_string = "Malayalam"
